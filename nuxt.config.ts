@@ -5,23 +5,23 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true
   },
-  modules: [
-    '@nuxt/content',
-    '@nuxt/image',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/tailwindcss'
-  ],
-  googleFonts: {
-    families: {
-      'Plus Jakarta Sans': [400]
-    }
-  },
-  tailwindcss: {
-    viewer: false
-  },
-  vue: {
-    compilerOptions: {
-      isCustomElement: tag => tag === 'calenso-booking'
-    }
-  }
+  // modules: [
+  //   '@nuxt/content',
+  //   '@nuxt/image',
+  //   '@nuxtjs/google-fonts',
+  //   '@nuxtjs/tailwindcss'
+  // ],
+  // googleFonts: {
+  //   families: {
+  //     'Plus Jakarta Sans': [400]
+  //   }
+  // },
+  // tailwindcss: {
+  //   viewer: false
+  // },
+  // vue: {
+  //   compilerOptions: {
+  //     isCustomElement: tag => tag === 'calenso-booking'
+  //   }
+  // }
 })
