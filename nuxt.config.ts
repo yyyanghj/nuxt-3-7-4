@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true
   },
+  modules: [
+    '@nuxt/content',
+  ]
   // modules: [
   //   '@nuxt/content',
   //   '@nuxt/image',
